@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Game Web page</title>
+</head>
+<style>
+{margin:0; padding:0;}
+.foot1{
+background-image: url('‪./‪C:\Users\HP\Pictures\image1.png');
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.navsection{
+width:100%;
+display:flex; align-items:left-side; justify-content:space-around;
+}
+nav{
+width:60%;
+display: flex;
+justify-content: space-around;
+margin-top: 100px;
+margin-left:500px;
+}
+nav a{
+text-decoration: none;
+color: blue;
+font-weight: 900;
+font-size:17px;
+position: relative;
+}
+nav a:first-child{
+color:black;
+}
+nav a:before{
+content:"";
+position:absolute;
+top:110%;
+left:0;
+width:0%;
+height:2px;
+border-bottom:2px solid orange;
+transition:all 0.4s linear;
+}
+nav a:hover:before{
+width:100%;
+}
+
+main{
+height:60vh;
+display:flex;
+}
+.leftside h2{
+margin-top:150px;
+font-weight:100px;
+word-spacing:5px;
+margin-left:400px;
+}
+.leftside h1{
+margin-top:20px;
+font-size:70px;
+margin-bottom:25px;
+margin-left:400px;
+}
+.leftside h3{
+margin-top:20px;
+font-size:20px;
+margin-bottom:25px;
+margin-left:400px;
+}
+
+.rightside img{
+max-width:300px;
+height:450px;
+padding-right: 100px;
+margin-top:100px;
+margin-right:150px;
+}
+.rightside{
+animation:aagepiche 2s linear infinite;
+animation-direction:alternate;
+}
+@keyframes aagepiche{
+from{padding-top:40px;}
+to{{padding-bottom:40px;}
+}
+.leftside .btn1{
+text-decoration:none;
+font-weight:900;
+font-size:14px;
+text-align:center;
+padding:12px 25px;
+display:inline-block;
+margin-right:50px;
+background-color:pink;
+color:blue;
+border:double 2px;
+box-shadow:0 10px 30px rgba(118,85,225,.5);
+}
+.leftside .btn1:hover{
+border:2px solid black;
+color:white;
+background-color:blue;
+box-shadow:none;
+font-size:20px;
+}
+.leftside .btn2{
+text-decoration:none;
+font-weight:900;About
+font-size:14px;
+text-align:center;
+padding:12px 25px;
+display:inline-block;
+margin-right:50px;
+background-color:pink;
+color:blue;
+border:double 2px;
+box-shadow:0 10px 30px rgba(118,85,225,.5);
+}
+.leftside .btn2:hover{
+border:2px solid black;
+color:white;
+background-color:blue;
+box-shadow:none;
+font-size:20px;
+}
+</style>
+<body class="foot1">
+<section class="navsection">
+<div class="logo">
+<img src="‪C:\Users\HP\Downloads\61b268b2323f093e75df63ef_Logooo.png">
+</div>
+<nav>
+<a href="#">About</a>
+<a href="#">Tokenomics</a>
+<a href="#">Growth</a>
+<a href="#">Roadmap</a>
+</nav>
+
+</section>
+<main><div class="leftside">
+<h2>Buit On BSC. Powered By You.</h2>
+<h1>The Future Of Gaming Is Here</h1>
+<h3>We combine blockchain and gaming to create a fun 
+and rewarding gaming experience in the form of a 
+decentralized application.</h3>
+<a href="#" class="btn1">BUY NOW</a>
+<a href="#" class="btn2">START GAMING</a>
+</div>
+<div class="rightside">
+<img src="C:\Users\HP\Downloads\61b64c8b16848b7b70738f35_dasfsgdhfj.png">
+</main>
+</body>
+</html>
