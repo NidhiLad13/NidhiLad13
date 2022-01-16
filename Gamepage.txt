@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Game Web page</title>
+<style>
+{margin:0; padding:0;}
+.navsection{
+width:100%;
+display:flex; align-items:left-side; justify-content:space-around;
+}
+nav{
+width:60%;
+display: flex;
+justify-content: space-around;
+margin-top: 100px;
+margin-left:400px;
+}
+nav a{
+text-decoration: none;
+color: white;
+font-weight: 900;
+font-size:17px;
+position: relative;
+}
+
+nav a:before{
+content:"";
+position:absolute;
+top:110%;
+left:0;
+width:0%;
+height:2px;
+border-bottom:2px solid orange;
+transition:all 0.4s linear;
+}
+nav a:hover:before{
+width:100%;
+}
+.bun .btn3{
+font-weight:900;
+font-size:14px;
+text-align:center;
+display: inline-block;
+margin-left:10px;
+color:white;
+padding:12px 25px;
+border:double 2px;
+border-radius: 10px;
+margin-top: 90px;
+box-shadow:0 10px 30px rgba(118,85,225,.5);
+cursor: pointer;
+}
+.bun .btn3:hover{
+border:2px solid black;
+color:blue;
+background-color:pink;
+box-shadow:none;
+font-size:14px;
+}
+main{
+height:60vh;
+display:flex;
+}
+.nid{
+background: linear-gradient(to right, blue, pink);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.leftside h2{
+margin-top:150px;
+font-weight:100px;
+word-spacing:5px;
+margin-left:400px;
+font-family: Nirmala UI;
+background: linear-gradient(to right, blue, pink);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.leftside h1{
+margin-top:20px;
+font-size:70px;
+margin-bottom:25px;
+margin-left:400px;
+color: white;
+font-family: MS Reference Sans Serif;
+}
+.leftside h3{
+margin-top:20px;
+font-size:20px;
+margin-bottom:25px;
+margin-left:400px;
+color: gray;
+font-family: Nirmala UI;
+}
+
+button{
+text-decoration:none;
+font-weight:900;
+font-size:10px;
+text-align:center;
+padding:12px 25px;
+display:inline-block;
+color:white;
+background-color:blue;
+margin-left:50px;
+border:double 2px;
+border-radius: 10px;
+box-shadow:0 10px 30px rgba(118,85,225,.5);
+cursor: pointer;
+}
+button:hover{
+border:2px solid black;
+color:blue;
+background-color:pink;
+box-shadow:none;
+font-size:15px;
+}
+
+.rightside img{
+max-width:300px;
+height:450px;
+padding-right: 100px;
+margin-top:100px;
+margin-right:150px;
+}
+
+
+.rightside{
+animation:aagepiche 2s linear infinite;
+animation-direction:alternate;
+}
+@keyframes aagepiche{
+from{padding-top:40px;}
+to{{padding-bottom:40px;}
+}
+</style>
+</head>
+<body background="C:\Users\HP\Downloads\peakpx (1).jpg">
+<section class="navsection">
+<div class="logo">
+<img src="‪‪‪C:\Users\HP\Downloads\61b268b2323f093e75df63ef_Logooo.jpg" alt="logo">
+</div>
+<nav>
+<a href="#">About</a>
+<a href="#">Tokenomics</a>
+<a href="#">Growth</a>
+<a href="#">Roadmap</a>
+</nav>
+<div class="bun">
+<a href="#" class="btn3">BUY STOKEN</a>
+</div>
+</section>
+<main><div class="leftside">
+<h2>Buit On BSC. Powered By You.</h2>
+<h1>The Future Of <span class="nid">Gaming</span> Is Here</h1>
+<h3>We combine blockchain and gaming to create a fun 
+and rewarding gaming experience in the form of a 
+decentralized application.</h3>
+<center><button type="button">BUY NOW</button>
+<button type="button">STARTING GAME</button></center>
+</div>
+<div class="rightside">
+<img src="C:\Users\HP\Downloads\61b64c8b16848b7b70738f35_dasfsgdhfj.png">
+</div>
+</main>
+</body>
+</html>
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Game Web page</title>
+<style>
+{margin:0; padding:0;}
+.navsection{
+width:100%;
+display:flex; align-items:left-side; justify-content:space-around;
+}
+nav{
+width:60%;
+display: flex;
+justify-content: space-around;
+margin-top: 100px;
+margin-left:400px;
+}
+nav a{
+text-decoration: none;
+color: white;
+font-weight: 900;
+font-size:17px;
+position: relative;
+}
+
+nav a:before{
+content:"";
+position:absolute;
+top:110%;
+left:0;
+width:0%;
+height:2px;
+border-bottom:2px solid orange;
+transition:all 0.4s linear;
+}
+nav a:hover:before{
+width:100%;
+}
+.bun .btn3{
+font-weight:900;
+font-size:14px;
+text-align:center;
+display: inline-block;
+margin-left:10px;
+color:white;
+padding:12px 25px;
+border:double 2px;
+border-radius: 10px;
+margin-top: 90px;
+box-shadow:0 10px 30px rgba(118,85,225,.5);
+}
+.bun .btn3:hover{
+border:2px solid black;
+color:blue;
+background-color:pink;
+box-shadow:none;
+font-size:14px;
+}
+main{
+height:60vh;
+display:flex;
+}
+.nid{
+background: linear-gradient(to right, blue, pink);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.leftside h2{
+margin-top:150px;
+font-weight:100px;
+word-spacing:5px;
+margin-left:400px;
+font-family: Nirmala UI;
+background: linear-gradient(to right, blue, pink);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.leftside h1{
+margin-top:20px;
+font-size:70px;
+margin-bottom:25px;
+margin-left:400px;
+color: white;
+font-family: MS Reference Sans Serif;
+}
+.leftside h3{
+margin-top:20px;
+font-size:20px;
+margin-bottom:25px;
+margin-left:400px;
+color: gray;
+font-family: Nirmala UI;
+}
+
+.rightside img{
+max-width:300px;
+height:450px;
+padding-right: 100px;
+margin-top:100px;
+margin-right:150px;
+}
+button{
+text-decoration:none;
+font-weight:900;About
+font-size:10px;
+text-align:center;
+padding:12px 25px;
+display:inline-block;
+color:white;
+margin-left:80px;
+border:double 2px;
+border-radius: 10px;
+box-shadow:0 10px 30px rgba(118,85,225,.5);
+}
+button:hover{
+border:2px solid black;
+color:blue;
+background-color:pink;
+box-shadow:none;
+font-size:20px;
+}
+.rightside{
+animation:aagepiche 2s linear infinite;
+animation-direction:alternate;
+}
+@keyframes aagepiche{
+from{padding-top:40px;}
+to{{padding-bottom:40px;}
+}
+</style>
+</head>
+<body>
+<section class="navsection">
+<div class="logo">
+<img src="‪‪‪C:\Users\HP\Downloads\61b268b2323f093e75df63ef_Logooo.jpg" alt="logo">
+</div>
+<nav>
+<a href="#">About</a>
+<a href="#">Tokenomics</a>
+<a href="#">Growth</a>
+<a href="#">Roadmap</a>
+</nav>
+<div class="bun">
+<a href="#" class="btn3">BUY STOKEN</a>
+</div>
+</section>
+<main><div class="leftside">
+<h2>Buit On BSC. Powered By You.</h2>
+<h1>The Future Of <span class="nid">Gaming</span> Is Here</h1>
+<h3>We combine blockchain and gaming to create a fun 
+and rewarding gaming experience in the form of a 
+decentralized application.</h3>
+<center><button type="button">BUY NOW</button>
+<button type="button">STARTING GAME</button></center>
+</div>
+<div class="rightside">
+<img src="C:\Users\HP\Downloads\61b64c8b16848b7b70738f35_dasfsgdhfj.png">
+</div>
+</main>
+</body>
+</html>-->
